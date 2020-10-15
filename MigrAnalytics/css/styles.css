@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -375,7 +375,7 @@ h2, .h2 {
 
 h3, .h3 {
   text-align: center !important;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h4, .h4 {
@@ -10113,8 +10113,8 @@ header.masthead h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-  header.masthead p {
-    font-size: 1.15rem;
+  header.masthead .migra-title {
+    font-size: 1.8rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -10165,9 +10165,6 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
-
-
-
 #publication-title {
   font-size: 1.3rem;
 }
@@ -10214,6 +10211,9 @@ header.masthead h1 {
   margin-right: 50px;
 }
 .plot-center{
-        margin:auto;
-        margin-bottom: 50px;
-    }
+  margin:auto;
+  margin-bottom: 50px;
+}
+.migra-title {
+  font-size: 1.5rem;
+}
